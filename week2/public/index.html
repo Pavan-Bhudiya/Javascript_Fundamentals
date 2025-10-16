@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Week 2 API</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #007bff;
+    }
+    code {
+      background: #eee;
+      padding: 3px 6px;
+      border-radius: 5px;
+    }
+    .api-list {
+      margin-top: 30px;
+      text-align: left;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Week 2 API</h1>
+  <p>This is a simple Express.js API demonstration.</p>
+
+  <div class="api-list">
+    <h3>Available Endpoints:</h3>
+    <ul>
+      <li><code>GET /</code> → Returns <b>"My week 2 API"</b></li>
+      <li><code>POST /user</code> → Accepts <code>{name, email}</code> JSON and responds with <b>"Hello, [name]!"</b></li>
+      <li><code>GET /user/:id</code> → Returns <b>"User [id] profile"</b></li>
+    </ul>
+  </div>
+
+  <p style="margin-top: 40px; font-size: 0.9em; color: #777;">
+    Built with <b>Express.js</b> and <b>dotenv</b> • Week 2 Project
+  </p>
+</body>
+</html>
